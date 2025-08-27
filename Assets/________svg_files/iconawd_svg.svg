@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Alien Head -->
+  <ellipse cx="64" cy="70" rx="40" ry="50" fill="#95faff" stroke="#222" stroke-width="6"/>
+  <!-- Left Eye -->
+  <ellipse cx="48" cy="75" rx="9" ry="15" fill="#fff" stroke="#222" stroke-width="4"/>
+  <ellipse cx="50" cy="77" rx="4" ry="7" fill="#31adec"/>
+  <!-- Right Eye -->
+  <ellipse cx="80" cy="75" rx="9" ry="15" fill="#fff" stroke="#222" stroke-width="4"/>
+  <ellipse cx="82" cy="77" rx="4" ry="7" fill="#31adec"/>
+  <!-- Mouth -->
+  <ellipse cx="65" cy="105" rx="10" ry="3" fill="none" stroke="#222" stroke-width="4"/>
+  <!-- Left Antenna -->
+  <line x1="52" y1="28" x2="34" y2="7" stroke="#222" stroke-width="4" />
+  <ellipse cx="34" cy="7" rx="4" ry="4" fill="#eaffb7" stroke="#222" stroke-width="3"/>
+  <!-- Right Antenna -->
+  <line x1="76" y1="28" x2="100" y2="8" stroke="#222" stroke-width="4" />
+  <ellipse cx="100" cy="8" rx="4" ry="4" fill="#eaffb7" stroke="#222" stroke-width="3"/>
+</svg>

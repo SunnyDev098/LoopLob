@@ -1,0 +1,2 @@
+-keep class androidx.datastore.** { *; }
+-keep class kotlinx.** { *; }

@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6754148171976195459
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ed 1
+  m_Shader: {fileID: -6465566751694194690, guid: 47a22805dd4f7834381548877d139d2d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color_Gradient_Texture:
+        m_Texture: {fileID: 2800000, guid: 24b8749620aec224d8b9680941ceaac9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BACKGROUND_STARFIELD_ENABLED: 1
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 6
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _Density_Falloff: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _Exposure: 2.19
+    - _Filtering_Detail: 4
+    - _Flow_Speed: 0.01
+    - _Fresnel_Power: 4.44
+    - _GALACTIC_BAND_ENABLED: 1
+    - _GLOWING_STARS_ENABLED: 1
+    - _Galactic_Outer_Glow_Blend: 0.249
+    - _Galactic_Outer_Glow_Height: 0.885
+    - _Galactic_Outer_Glow_Width: 0.87
+    - _Galaxy_Disk_Glow_Falloff: 8.07
+    - _Galaxy_Disk_Height: 0.832
+    - _Galaxy_Disk_Noise_Scale: 22.32
+    - _Galaxy_Disk_Width: 0.85
+    - _Galaxy_Great_Rift_Blend: 0.13
+    - _Galaxy_Great_Rift_Darkness_Factor: 4
+    - _Galaxy_Great_Rift_Falloff: 8.48
+    - _Galaxy_Great_Rift_Height: 0.86
+    - _Galaxy_Great_Rift_Noise_Scale: 3
+    - _Galaxy_Great_Rift_Width: 0.93
+    - _Galaxy_Outer_Glow_Falloff: 1.33
+    - _Galaxy_Outer_Glow_Noise_Scale: 1
+    - _Galaxy_Star_Mask_Falloff: 2.2
+    - _Galaxy_Stars_Blend: 5
+    - _Galaxy_Stars_Color_Intensity: 20
+    - _Galaxy_Stars_Density: 100
+    - _Galaxy_Stars_Power: 13
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Glow_Falloff: 1
+    - _Glow_Intensity: 1
+    - _Glowing_Star_Color_Power: 0.03
+    - _Glowing_Stars_Amount: 0.05
+    - _Glowing_Stars_Density: 19.8
+    - _Glowing_Stars_Power: 0.008
+    - _Glowing_Stars_Seed: -110
+    - _Metallic: 0
+    - _Mode: 2
+    - _NEBULAS_ENABLED: 1
+    - _Nebula_Blend: 3
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _QueueControl: 1
+    - _QueueOffset: 0
+    - _SUN_ENABLED: 0
+    - _Scale: 0.5
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Star_Core_Size: 0.2
+    - _Starfield_Color_Intensity: 1.13
+    - _Starfield_Darkness_Mask: 1
+    - _Starfield_Darkness_Mask_Scale: 10
+    - _Starfield_Density: 54.8
+    - _Stars_Power: 100
+    - _Sun_Core_Falloff: 282
+    - _Sun_Glow_Falloff: 10
+    - _Sun_Glow_Intensity: 0.05
+    - _Sun_Shimmer_Amount: 15
+    - _Sun_Shimmer_Intensity_Falloff: 2
+    - _Sun_Shimmer_Radial_Falloff: 20
+    - _UVSec: 0
+    - _X_Scaling: 0
+    - _Y_Gradient_Scale: 0.1
+    - _Y_Gradient_Strength: 0.1
+    - _ZWrite: 0
+    - _Z_Scaling: 0.01
+    m_Colors:
+    - _3D_Random_Seed: {r: 0, g: 0, b: 0, a: 0}
+    - _Back_Nebula_Color_Z: {r: 0, g: 0.8, b: 1, a: 0}
+    - _Back_Nebula_Offset_Z: {r: 0, g: 0, b: 0, a: 0}
+    - _Back_Nebula_Params_Z: {r: 1, g: 0.7, b: 6, a: 2.38}
+    - _Bottom_Nebula_Color_Y: {r: 0.7882353, g: 0.6784314, b: 0.17647055, a: 0}
+    - _Bottom_Nebula_Offset_Y: {r: 0, g: 0, b: 0, a: 0}
+    - _Bottom_Nebula_Params_Y: {r: 0.94, g: 0.62, b: 4, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 0.8745098}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Fresnel_Color: {r: 1, g: 0.7358491, b: 0, a: 0}
+    - _Front_Nebula_Color_Z: {r: 0, g: 0, b: 0, a: 0}
+    - _Front_Nebula_Offset_Z: {r: 0, g: 0, b: 0, a: 0}
+    - _Front_Nebula_Params_Z: {r: 0, g: 1, b: 4, a: 1}
+    - _Galaxy_3D_Random_Seed: {r: 0, g: -1.07, b: 0, a: 0}
+    - _Galaxy_Disk_Glow_Color: {r: 0.345098, g: 0.3176471, b: 0.2313726, a: 0}
+    - _Galaxy_Disk_Glow_Color_Range: {r: 0.5, g: 1, b: 0, a: 0}
+    - _Galaxy_Great_Rift_Color: {r: 0.3866858, g: 1.420327, b: 0.9347438, a: 0}
+    - _Galaxy_Outer_Glow_Color: {r: 0.7568628, g: 0.3803922, b: 0.4196078, a: 0}
+    - _Galaxy_Outer_Glow_Color_Range: {r: 0.95, g: 1.1, b: 0, a: 0}
+    - _Galaxy_Rotation: {r: 0.31, g: 0, b: -6.18, a: 0}
+    - _Glow_Color: {r: 2.12605, g: 1.036772, b: 0.3169015, a: 0}
+    - _Left_Nebula_Color_X: {r: 0.01176471, g: 0.58431375, b: 0.09803919, a: 0}
+    - _Left_Nebula_Offset_X: {r: 0, g: 0, b: 0, a: 0}
+    - _Left_Nebula_Params_X: {r: 0.5, g: 0.75, b: 2.5, a: 2}
+    - _Object_Position: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Right_Nebula_Color_X: {r: 0.9333333, g: 0.6117647, b: 0.6117647, a: 0}
+    - _Right_Nebula_Offset_X: {r: 0, g: 0, b: 0, a: 0}
+    - _Right_Nebula_Params_X: {r: 1, g: 0.5, b: 2.5, a: 1.5}
+    - _Sun_Color: {r: 0.19394608, g: 0.19394608, b: 0.19394608, a: 0}
+    - _Top_Nebula_Color_Y: {r: 0.27843136, g: 0.5215686, b: 0.827451, a: 0}
+    - _Top_Nebula_Offset_Y: {r: 0, g: 0, b: 0, a: 0}
+    - _Top_Nebula_Params_Y: {r: 0.9, g: 0.4, b: 4, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &2373157826108911562
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0

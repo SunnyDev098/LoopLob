@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12b5f9e5a0b0844d9607bb9e7c6a00f, type: 3}
+  m_Name: New Stage Config
+  m_EditorClassIdentifier: 
+  planetPrefab: {fileID: 5546576955317255205, guid: 7c036e4c127c34b4eb0a3fd6f780ecbb, type: 3}
+  tutorialEndY: 50
+  tutorialMinSpacing: 3
+  tutorialPlanets: []
+  stageHeight: 100
+  triggerOffset: 30
+  spawnsPerMeter: 0.1
+  horizontalMargin: 0.85
+  maxDifficultyHeight: 1000
+  enemyProfiles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
