@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "com.google.external-dependency-manager": {
-      "version": "file:E:/fireBase_12_6_tgz/com.google.external-dependency-manager-1.2.185.tgz",
+      "version": "file:../UnityPackages/com.google.external-dependency-manager-1.2.185.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}
     },
     "com.google.firebase.app": {
-      "version": "file:E:/fireBase_12_6_tgz/com.google.firebase.app-12.6.0.tgz",
+      "version": "file:../UnityPackages/com.google.firebase.app-12.6.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -15,7 +15,7 @@
       }
     },
     "com.google.firebase.auth": {
-      "version": "file:E:/fireBase_12_6_tgz/com.google.firebase.auth-12.6.0.tgz",
+      "version": "file:../UnityPackages/com.google.firebase.auth-12.6.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -23,7 +23,7 @@
       }
     },
     "com.google.firebase.firestore": {
-      "version": "file:E:/fireBase_12_6_tgz/com.google.firebase.firestore-12.6.0.tgz",
+      "version": "file:../UnityPackages/com.google.firebase.firestore-12.6.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -31,7 +31,7 @@
       }
     },
     "com.google.firebase.functions": {
-      "version": "file:E:/fireBase_12_6_tgz/com.google.firebase.functions-12.6.0.tgz",
+      "version": "file:../UnityPackages/com.google.firebase.functions-12.6.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -39,7 +39,7 @@
       }
     },
     "com.google.firebase.messaging": {
-      "version": "file:E:/fireBase_12_6_tgz/com.google.firebase.messaging-12.6.0.tgz",
+      "version": "file:../UnityPackages/com.google.firebase.messaging-12.6.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
